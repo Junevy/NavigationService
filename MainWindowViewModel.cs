@@ -11,6 +11,8 @@ namespace NavigationService
 {
     public partial class MainWindowViewModel : ViewModelBase
     {
+
+        //public
         private readonly INaviService Navigator;
 
         [ObservableProperty]
